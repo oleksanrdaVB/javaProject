@@ -2,7 +2,7 @@ package com.company;
 
 public class Animal {
     public void makeSound() {
-        System.out.println("I can say");
+        System.out.println("The animal makes a sound");
     }
 
     public void run() {
