@@ -1,4 +1,4 @@
-package com.example;
+package com.company;
 
 public class Wind implements IElement{
     public String getElementName() {
