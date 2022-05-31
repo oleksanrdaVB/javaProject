@@ -1,16 +1,16 @@
-package com.company;
+package com.example;
 
 public class Main {
-    public static void main(String[] args) {
-        Zoo myZoo = new Zoo();
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
 
-        myZoo.makeSound(myDog);
-        myZoo.makeSound(myCat);
-//        myDog.run();
-//        myDog.makeSound();
-//        myCat.run();
-//        myCat.makeSound();
+    public static void main(String[] args) {
+        Wind W = new Wind();
+        River R = new River();
+
+        identifyElement(W);
+        identifyElement(R);
+    }
+
+    public static void identifyElement(IElement element) {
+        System.out.println(element.getElementName());
     }
 }
