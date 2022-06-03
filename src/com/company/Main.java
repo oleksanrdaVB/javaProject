@@ -2,11 +2,12 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
-        myDog.run();
-        myDog.makeSound();
-        myCat.run();
-        myCat.makeSound();
+        Student student = new Student("Alice", 1996, "Kyiv", "KPI", "Kyiv, Peremogy avenue");
+
+        System.out.println(student.getName());
+        System.out.println(student.getAge());
+        System.out.println(student.getCity());
+        System.out.println(student.getCollegeName());
+        System.out.println(student.getCollegeLocation());
     }
 }
